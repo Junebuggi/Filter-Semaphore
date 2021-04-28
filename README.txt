@@ -2,17 +2,15 @@ Assignment 2: Shared Memory and Semaphores
 Name: Emma Boulay
 
 Set-Up Instructions:
-1. Extract the archived files in 101073617_Assignment2.tar.gz
-	$ tar -xvzf 101073617_Assignment2.tar.gz
-2. Run the makefile to compile:
+1. Run the makefile to compile:
 	$ make
-3. Run the program with hardcoded dataset 1 :
+2. Run the program with hardcoded dataset 1 :
 	$ ./FILTER
-4. To run the program with hardcoded dataset 2
+3. To run the program with hardcoded dataset 2
 	$ ./FILTER data2
-5. To run the program with random char array use the -r option:
+4. To run the program with random char array use the -r option:
 	$ ./FILTER -r
-6. To run the program with user inputed data set use the -u option:
+5. To run the program with user inputed data set use the -u option:
 	$ ./FILTER -u
 
 /********** Discussion of Test Results ***********/

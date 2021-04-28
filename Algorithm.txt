@@ -1,0 +1,28 @@
+Algorithm
+Name: Emma Boulay
+Student Number: 101073617
+
+Instantiate shared memory
+Make shared memory accessible to program
+Instantiate array B (in shared memory) depending on command line args
+Get debugging mode from user
+Instantiate N_PROCESS-1 semaphores (2 semaphores)
+
+Fork N_PROCESS processes
+
+	If parent process:
+		break;
+	If child process:
+		while(array B is not filtered)
+			If P0 or P2 only need 1 semaphore
+			Else, P1 and needs both semaphores
+
+			Wait on semaphore(s) (semaphoreID depends on processNumber)
+			For Loop: i = processNumber*2, until i < processNumber*2+2; i++
+				IF B[i] > B[i+1] THEN
+					swap B[i] AND B[i+1]
+			Release semaphore(s)
+
+Wait until all child processes terminate
+Print filtered array
+Detach and delete shared memory

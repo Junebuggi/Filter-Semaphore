@@ -9,7 +9,6 @@
  * critical section.
  *
  * Author: Emma Boulay
- * Student Number: 101073617
  *
  */
 int main(int argc, const char * argv[]) {

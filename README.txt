@@ -1,6 +1,5 @@
 Assignment 2: Shared Memory and Semaphores
 Name: Emma Boulay
-Student Number: 101073617
 
 Set-Up Instructions:
 1. Extract the archived files in 101073617_Assignment2.tar.gz

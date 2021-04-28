@@ -7,7 +7,6 @@
  * It contains functions to compare and swap characters and to print the array.
  *
  * Author: Emma Boulay
- * Student Number: 101073617
  */
 
 /**

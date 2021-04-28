@@ -2,7 +2,6 @@
  * The header file for the filterFunctions program
  *
  * Author: Emma Boulay
- * Student Number: 101073617
  */
 #ifndef FILTERFUNCTIONS_H
 #define FILTERFUNCTIONS_H

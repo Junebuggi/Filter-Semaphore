@@ -2,7 +2,6 @@
  * The header file for the filter file
  *
  * Author: Emma Boulay
- * Student Number: 101073617
  */
 
 #ifndef FILTER_H

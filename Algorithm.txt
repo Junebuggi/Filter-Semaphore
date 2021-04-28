@@ -1,6 +1,5 @@
 Algorithm
 Name: Emma Boulay
-Student Number: 101073617
 
 Instantiate shared memory
 Make shared memory accessible to program
